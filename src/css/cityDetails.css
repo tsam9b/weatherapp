@@ -1,0 +1,105 @@
+.modall-backdrop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modall {
+    background: #FFFFFF;
+    box-shadow: 2px 2px 20px 1px;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: column;
+    width:40%;
+  }
+
+  .modall-header,
+  .modall-footer {
+    padding: 15px;
+    display: flex;
+  }
+
+  .modall-header {
+    position: relative;
+    border-bottom: 1px solid #eeeeee;
+    color: #4AAE9B;
+    justify-content: space-between;
+    font-size:20px;
+    background-color: black;
+  }
+
+  .modall-footer {
+    border-top: 1px solid #eeeeee;
+    flex-direction: column;
+  }
+
+  .modall-body {
+    position: relative;
+    padding: 20px 10px;
+  }
+
+  .btn-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #4AAE9B;
+    background: transparent;
+  }
+
+  .btn-green {
+    color: white;
+    background: #4AAE9B;
+    border: 1px solid #4AAE9B;
+    border-radius: 2px;
+    margin-top:10%;
+  }
+
+  .modall-fade-enter,
+  .modall-fade-leave-to {
+    opacity: 0;
+  }
+
+  .modall-fade-enter-active,
+  .modall-fade-leave-active {
+    transition: opacity .5s ease;
+  }
+
+  .table_left td, .table_right td{
+    border:none!important;
+  }
+  .table_left{
+    float:left;
+    border:none;
+  }
+  .table_right{
+    float:right;
+    border:none;
+  }
+
+
+  .modall-header .table_left .mtitle{
+    padding-right:2px!important;
+    font-size: 22px!important;
+  }
+
+  .modall-header .table_left .stitle{
+    padding-right:2px!important;
+    font-size: 17px!important;
+  }
+
+  .modall-header .table_left{
+    padding-right:2px!important;
+    font-size: 22px!important;
+  }
+  
